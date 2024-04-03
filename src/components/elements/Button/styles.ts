@@ -22,4 +22,13 @@ export const Container = styled.div`
     font-weight: 400;
     line-height: 20px;
   }
+
+  transition: all 0.2s ease-in-out;
+  &:active {
+    transform: scale(0.95) translateZ(0px) !important;
+  }
+
+  &:hover {
+    transform: scale(1.03) translateZ(0px);
+  }
 `;

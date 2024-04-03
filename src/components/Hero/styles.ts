@@ -8,7 +8,8 @@ export const Container = styled.div`
   justify-content: center;
   position: relative;
   color: #fff;
-  background-image: url("/backgroundhero.png");
+  background: linear-gradient(to right, black, transparent),
+    url("/backgroundhero.png");
   background-size: cover;
   background-position: 50% 25%;
 `;
