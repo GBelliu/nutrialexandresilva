@@ -6,7 +6,7 @@ export const Container = styled.div`
   height: fit-content;
   padding: 96px 0 180px 0;
   justify-content: center;
-  position: relative;
+
   color: #fff;
   background: linear-gradient(to right, black, transparent),
     url("/backgroundhero.png");

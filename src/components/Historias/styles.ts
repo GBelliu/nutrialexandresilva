@@ -22,11 +22,11 @@ export const Content = styled.div`
   gap: 50px;
 
   h1 {
-    font-size: 54px;
+    font-size: 38px;
     font-weight: 700;
     line-height: 65px;
     text-align: center;
-    max-width: 780px;
+
     span {
       color: #ffd600;
       font-weight: 700;

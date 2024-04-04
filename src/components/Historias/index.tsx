@@ -5,7 +5,7 @@ export function Historia() {
     <Container>
       <Content>
         <h1>
-          HISTÓRIAS DE SUCESSO UTILIZANDO A{" "}
+          HISTÓRIAS DE SUCESSO UTILIZANDO A <br />
           <span>METODOLOGIA DE ATENDIMENTO PRIME</span>
         </h1>
         <Divider>

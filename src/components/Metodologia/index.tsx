@@ -7,7 +7,8 @@ export function Metodologia() {
     <Container>
       <Content>
         <h1>
-          COMO MEMBRO DA <span>MENTÓRIA COLSUTÓRIO PRIME</span> VOCÊ RECEBE...
+          O QUE IREI APRENDER <br />
+          NA <span>MENTORIA?</span>
         </h1>
         <ContentSlide>
           <Swiper

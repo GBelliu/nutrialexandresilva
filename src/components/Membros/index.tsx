@@ -6,7 +6,7 @@ export function Membros() {
     <Container>
       <Content>
         <h1>
-          COMO MEMBRO DA <span>MENTÓRIA COLSUTÓRIO PRIME</span> VOCÊ RECEBE...
+          COMO MEMBRO DA <span>MENTORIA COLSUTÓRIO PRIME</span> VOCÊ RECEBE...
         </h1>
         <Itens>
           <Item>
