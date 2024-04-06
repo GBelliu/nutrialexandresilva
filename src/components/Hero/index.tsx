@@ -1,5 +1,5 @@
 import { Button } from "../elements/Button";
-import { Container, Content, ContentButton, Human, Text } from "./styles";
+import { Container, Content, ContentButton, Text } from "./styles";
 
 export function Hero() {
   return (
