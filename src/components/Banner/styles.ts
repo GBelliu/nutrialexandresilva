@@ -28,10 +28,10 @@ export const Content = styled.div`
     gap: 50px;
   }
   @media (min-width: 768px) and (max-width: 1023px) {
-    max-width: 100%;
+    max-width: 624px;
   }
   @media (max-width: 767px) {
-    max-width: 100%;
+    max-width: 350px;
     align-items: center;
   }
 `;
@@ -42,4 +42,13 @@ export const Text = styled.h2`
   font-style: italic;
   line-height: 36px;
   color: #000;
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    font-size: 30px;
+    text-align: center;
+  }
+  @media (max-width: 767px) {
+    font-size: 30px;
+    text-align: center;
+  }
 `;

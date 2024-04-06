@@ -9,6 +9,10 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  @media (max-width: 767px) {
+    height: fit-content;
+    padding: 10px 0;
+  }
 `;
 
 export const Text = styled.h1`
@@ -19,5 +23,9 @@ export const Text = styled.h1`
   color: #000;
   span {
     font-weight: 700;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 14px;
   }
 `;

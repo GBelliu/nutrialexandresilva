@@ -5,9 +5,15 @@ export const Container = styled.div`
   width: 100%;
   height: fit-content;
   padding-bottom: 125px;
-  padding-bottom: 125px;
   justify-content: center;
   color: #fff;
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    padding-bottom: 75px;
+  }
+  @media (max-width: 767px) {
+    padding-bottom: 50px;
+  }
 `;
 
 export const Content = styled.div`
@@ -38,11 +44,21 @@ export const Content = styled.div`
     gap: 50px;
   }
   @media (min-width: 768px) and (max-width: 1023px) {
-    max-width: 100%;
+    max-width: 624px;
+    gap: 30px;
+    h1 {
+      font-size: 32px;
+      line-height: 46px;
+    }
   }
   @media (max-width: 767px) {
-    max-width: 100%;
+    max-width: 350px;
+    gap: 30px;
     align-items: center;
+    h1 {
+      font-size: 24px;
+      line-height: 29px;
+    }
   }
 `;
 
@@ -52,6 +68,15 @@ export const Itens = styled.div`
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: flex-start;
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    gap: 25px;
+  }
+  @media (max-width: 767px) {
+    gap: 25px;
+    align-items: center;
+    flex-flow: column;
+  }
 `;
 export const Item = styled.div`
   display: flex;
@@ -62,13 +87,30 @@ export const Item = styled.div`
 `;
 export const Icon = styled.img`
   height: 130px;
+
+  @media (max-width: 1750px) {
+    height: 100px;
+  }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    height: 100px;
+  }
+  @media (max-width: 767px) {
+    height: 90px;
+  }
 `;
 
 export const Text = styled.h2`
   color: #fff;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 700;
-  line-height: 39px;
+  line-height: 30px;
   text-align: center;
-  max-width: 147px;
+  max-width: 150px;
+
+  @media (max-width: 767px) {
+    font-size: 30px;
+    line-height: 39px;
+    max-width: 100%;
+  }
 `;

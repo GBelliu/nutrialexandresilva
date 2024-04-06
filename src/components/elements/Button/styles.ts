@@ -31,4 +31,28 @@ export const Container = styled.div`
   &:hover {
     transform: scale(1.03) translateZ(0px);
   }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    padding: 10px 25px;
+    line-height: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    span {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+    }
+  }
+  @media (max-width: 767px) {
+    padding: 10px 10px;
+    line-height: 18px;
+    font-weight: 700;
+    font-size: 14px;
+    width: 100%;
+    span {
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 20px;
+    }
+  }
 `;

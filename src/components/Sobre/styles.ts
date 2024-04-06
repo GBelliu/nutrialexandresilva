@@ -36,15 +36,25 @@ export const Content = styled.div`
   }
 
   @media (max-width: 1750px) {
-    max-width: 965px;
+    max-width: 1200px;
     gap: 50px;
   }
   @media (min-width: 768px) and (max-width: 1023px) {
-    max-width: 100%;
+    max-width: 624px;
+    gap: 30px;
+    h1 {
+      font-size: 32px;
+      line-height: 46px;
+    }
   }
   @media (max-width: 767px) {
-    max-width: 100%;
+    max-width: 350px;
+    gap: 30px;
     align-items: center;
+    h1 {
+      font-size: 24px;
+      line-height: 29px;
+    }
   }
 `;
 
@@ -73,32 +83,66 @@ export const BoxText = styled.div`
   top: 0;
   right: 0;
   gap: 20px;
-  overflow: auto;
+  overflow: hidden;
+
+  @media (max-width: 1750px) {
+    width: 60%;
+  }
+  @media (max-width: 1023px) {
+    width: 100%;
+    position: static;
+    padding: 0px;
+  }
 `;
 export const Name = styled.h2`
   font-size: 48px;
   font-weight: 700;
   line-height: 63px;
+
+  @media (max-width: 1023px) {
+    font-size: 28px;
+
+    line-height: 34px;
+  }
 `;
 export const Job = styled.span`
   font-size: 22px;
   font-weight: 400;
   line-height: 30px;
+
+  @media (max-width: 1023px) {
+    font-size: 16px;
+
+    line-height: 19px;
+  }
 `;
 export const BoxDivider = styled.div`
   height: 3px;
   width: 100%;
   background: linear-gradient(to right, #ff9900, #ffe896, #ff9900);
+
+  @media (max-width: 1023px) {
+    margin-top: 10px;
+  }
 `;
 export const Texts = styled.div`
   display: flex;
   flex-flow: column;
   gap: 20px;
+  @media (max-width: 1023px) {
+    margin-top: 30px;
+  }
 `;
 export const Paragraph = styled.p`
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
+
+  @media (max-width: 1023px) {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+  }
 `;
 export const Image = styled.div`
   width: 100%;
@@ -110,10 +154,36 @@ export const Image = styled.div`
     object-position: top;
     max-height: 850px;
   }
+
+  @media (max-width: 1023px) {
+    display: none;
+  }
 `;
 
 export const TopText = styled.div`
   display: flex;
   flex-flow: column;
   gap: 15px;
+`;
+
+export const ImageMobile = styled.div`
+  @media (min-width: 1024px) {
+    display: none;
+  }
+  position: relative;
+  img {
+    height: 748px;
+    width: 100vw;
+    object-fit: cover;
+    object-position: right;
+  }
+
+  .shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: inset 0px 4px 250px #000000;
+    width: 100%;
+    height: 100%;
+  }
 `;

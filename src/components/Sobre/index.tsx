@@ -11,6 +11,7 @@ import {
   Image,
   BoxText,
   TopText,
+  ImageMobile,
 } from "./styles";
 
 export function Sobre() {
@@ -23,9 +24,14 @@ export function Sobre() {
             alt=""
           />
         </Divider>
+
         <h1>
           QUEM É <span>MEU MENTOR?</span>
         </h1>
+        <ImageMobile>
+          <img src="sobremobile.png" alt="" />
+          <div className="shadow"></div>
+        </ImageMobile>
         <Box>
           <Image>
             <img src="sobredesktop.png" alt="" />

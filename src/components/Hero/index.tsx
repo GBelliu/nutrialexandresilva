@@ -1,5 +1,5 @@
 import { Button } from "../elements/Button";
-import { Container, Content, ContentButton, Text } from "./styles";
+import { Container, Content, ContentButton, Human, Text } from "./styles";
 
 export function Hero() {
   return (
@@ -19,6 +19,7 @@ export function Hero() {
             garante sua entrada no programa.  Vagas limitadas.
           </Text>
         </ContentButton>
+        <Human src="nutriperfil.png" />
       </Content>
     </Container>
   );

@@ -2,7 +2,7 @@ import "./App.css";
 import { Banner } from "./components/Banner";
 import { ComoFunciona } from "./components/ComoFunciona";
 import { Footer } from "./components/Footer";
-import { Form } from "./components/Form";
+// import { Form } from "./components/Form";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { Historia } from "./components/Historias";
@@ -21,7 +21,7 @@ function App() {
       <Membros />
       <Historia />
       <Sobre />
-      <Form />
+      {/* <Form /> */}
       <Footer />
     </main>
   );

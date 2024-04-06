@@ -6,12 +6,19 @@ export const Container = styled.div`
   height: fit-content;
   padding: 96px 0 180px 0;
   justify-content: center;
-
+  position: relative;
   color: #fff;
   background: linear-gradient(to right, black, transparent),
     url("/backgroundhero.png");
-  background-size: cover;
+  background-size: contain;
   background-position: 50% 25%;
+  background-repeat: no-repeat;
+  @media (max-width: 768px) {
+    padding: 34px 0 450px 0;
+    background: url("heromobile.png");
+    background-position: center;
+    /* height: 1000px; */
+  }
 `;
 
 export const Content = styled.div`
@@ -42,11 +49,16 @@ export const Content = styled.div`
     gap: 50px;
   }
   @media (min-width: 768px) and (max-width: 1023px) {
-    max-width: 100%;
+    max-width: 624px;
   }
   @media (max-width: 767px) {
-    max-width: 100%;
+    max-width: 350px;
     align-items: center;
+    gap: 50px;
+    h1 {
+      font-size: 24px;
+      line-height: 36px;
+    }
   }
 `;
 
@@ -54,8 +66,12 @@ export const ContentButton = styled.div`
   display: flex;
   flex-flow: column;
   gap: 13px;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+
+  @media (max-width: 767px) {
+    gap: 25px;
+  }
 `;
 
 export const Text = styled.p`
@@ -69,4 +85,10 @@ export const Text = styled.p`
 
 export const Human = styled.img`
   position: absolute;
+  height: 400px;
+  bottom: 0;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
 `;
