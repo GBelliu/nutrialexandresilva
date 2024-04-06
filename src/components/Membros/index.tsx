@@ -6,7 +6,7 @@ export function Membros() {
     <Container>
       <Content>
         <h1>
-          COMO MEMBRO DA <span>MENTORIA COLSUTÓRIO PRIME</span> VOCÊ RECEBE...
+          COMO MEMBRO DA <span>MENTORIA CONSULTÓRIO PRIME</span> VOCÊ RECEBE...
         </h1>
         <Itens>
           <Item>
@@ -27,7 +27,7 @@ export function Membros() {
           </Item>
           <Item>
             <Icon src="estudoicon.png" />
-            <Text>Estudo de caso</Text>
+            <Text>Estudo de Caso</Text>
           </Item>
           <Item>
             <Icon src="planilhaicon.png" />

@@ -42,6 +42,7 @@ export const Text = styled.h2`
   font-style: italic;
   line-height: 36px;
   color: #000;
+  text-align: center;
 
   @media (min-width: 768px) and (max-width: 1023px) {
     font-size: 30px;
