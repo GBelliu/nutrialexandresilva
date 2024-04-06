@@ -1,3 +1,4 @@
+import { Button } from "../elements/Button";
 import { Column, Columns, Container, Content, Divider, Item } from "./styles";
 
 export function Historia() {
@@ -43,6 +44,10 @@ export function Historia() {
             </Item>
           </Column>
         </Columns>
+        <Button
+          subtext="CLIQUE AQUI E FAÇA SUA APLICAÇÃO"
+          text="QUERO ESCALAR MEU NEGÓCIO"
+        />
       </Content>
     </Container>
   );

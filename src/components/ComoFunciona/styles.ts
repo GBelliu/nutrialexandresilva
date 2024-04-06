@@ -37,7 +37,16 @@ export const Content = styled.div`
     text-align: center;
 
     span {
-      color: #ffd600;
+      background: radial-gradient(
+        50% 50% at 50% 50%,
+        #a1632a 0%,
+        #fde892 33.5%,
+        #fde892 62%,
+        #a1632a 100%
+      );
+
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
       font-weight: 700;
     }
   }
@@ -79,7 +88,16 @@ export const Text = styled.div`
     text-align: center;
 
     span {
-      color: #ffd600;
+      background: radial-gradient(
+        50% 50% at 50% 50%,
+        #a1632a 0%,
+        #fde892 33.5%,
+        #fde892 62%,
+        #a1632a 100%
+      );
+
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
   }
 

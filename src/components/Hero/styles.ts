@@ -10,7 +10,7 @@ export const Container = styled.div`
   color: #fff;
   background: linear-gradient(to right, black, transparent),
     url("/backgroundhero.png");
-  background-size: contain;
+  background-size: cover;
   background-position: 50% 25%;
   background-repeat: no-repeat;
   @media (max-width: 768px) {
@@ -39,7 +39,16 @@ export const Content = styled.div`
     max-width: 500px;
     text-transform: uppercase;
     span {
-      color: #ffd600;
+      background: radial-gradient(
+        50% 50% at 50% 50%,
+        #a1632a 0%,
+        #fde892 33.5%,
+        #fde892 62%,
+        #a1632a 100%
+      );
+
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
       font-weight: 700;
     }
   }

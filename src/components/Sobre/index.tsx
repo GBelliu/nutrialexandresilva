@@ -1,3 +1,4 @@
+import { Button } from "../elements/Button";
 import {
   Box,
   BoxDivider,
@@ -71,6 +72,10 @@ export function Sobre() {
             </Texts>
           </BoxText>
         </Box>
+        <Button
+          subtext="CLIQUE AQUI E FAÇA SUA APLICAÇÃO"
+          text="QUERO ESCALAR MEU NEGÓCIO"
+        />
       </Content>
     </Container>
   );
