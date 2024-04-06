@@ -93,7 +93,7 @@ export const Columns = styled.div`
 `;
 export const Column = styled.div`
   display: flex;
-  width: fit-content;
+  width: 100%;
   height: fit-content;
   justify-content: space-between;
   flex-wrap: wrap;
