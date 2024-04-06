@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled.a`
+  text-decoration: none;
+`;
+
+export const Content = styled.div`
   width: fit-content;
   height: fit-content;
   padding: 10px 25px;
@@ -16,6 +20,7 @@ export const Container = styled.div`
   background-color: #007505;
   border-radius: 300px;
   border: 1px solid #00000020;
+  color: #fff;
   cursor: pointer;
   span {
     font-size: 14px;
