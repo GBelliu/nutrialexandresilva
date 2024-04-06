@@ -13,10 +13,20 @@ export const Container = styled.div`
   background-size: cover;
   background-position: 50% 25%;
   background-repeat: no-repeat;
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    padding: 50px 0 450px 0;
+    background: url("herotablet.png");
+    background-position: 50% 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   @media (max-width: 768px) {
     padding: 34px 0 450px 0;
     background: url("heromobile.png");
-    background-position: center;
+    background-position: 50% 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
     /* height: 1000px; */
   }
 `;

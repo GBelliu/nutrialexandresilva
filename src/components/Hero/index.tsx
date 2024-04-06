@@ -19,7 +19,7 @@ export function Hero() {
             garante sua entrada no programa.  Vagas limitadas.
           </Text>
         </ContentButton>
-        <Human src="nutriperfil.png" />
+        {/* <Human src="nutriperfil.png" /> */}
       </Content>
     </Container>
   );

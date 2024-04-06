@@ -76,7 +76,7 @@ export const Columns = styled.div`
   display: flex;
   width: 100%;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: stretch;
   gap: 35px;
 
   @media (max-width: 1750px) {
