@@ -23,7 +23,7 @@ export const Container = styled.div`
   }
   @media (max-width: 768px) {
     padding: 34px 0 450px 0;
-    background: url("heromobile.png");
+    background: url("heromobile.svg");
     background-position: 50% 70%;
     background-repeat: no-repeat;
     background-size: cover;

@@ -14,6 +14,9 @@
     "@marolla/react-input-mask": "^1.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-facebook-pixel": "^1.0.4",
+    "react-ga4": "^2.1.0",
+    "react-gtm-module": "^2.0.11",
     "react-hot-toast": "^2.4.1",
     "styled-components": "^6.1.8",
     "swiper": "^11.1.0"
@@ -21,6 +24,7 @@
   "devDependencies": {
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
+    "@types/react-gtm-module": "^2.0.3",
     "@typescript-eslint/eslint-plugin": "^7.2.0",
     "@typescript-eslint/parser": "^7.2.0",
     "@vitejs/plugin-react": "^4.2.1",

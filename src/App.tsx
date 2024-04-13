@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import "./App.css";
 import { Banner } from "./components/Banner";
 import { ComoFunciona } from "./components/ComoFunciona";
@@ -9,8 +10,14 @@ import { Historia } from "./components/Historias";
 import { Membros } from "./components/Membros";
 import { Metodologia } from "./components/Metodologia";
 import { Sobre } from "./components/Sobre";
+import ReactPixel from "react-facebook-pixel";
+import ReactGA from "react-ga4";
 
 function App() {
+  useEffect(() => {
+    ReactPixel.init("530500398633975");
+    ReactGA.initialize("G-8LDTKE06NS");
+  }, []);
   return (
     <main>
       <Header />
