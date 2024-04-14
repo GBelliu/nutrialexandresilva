@@ -11,7 +11,7 @@ export function SaibaMaisContent() {
             <a href="/videosaibamais.mp4">MP4</a>
           </video>
         </Video>
-        <Button href="https://wa.me/5519993334160?text=Ol%C3%A1%2C+vim+do+site%2C+tenho+interesse+na+Mentoria+Consult%C3%B3rio+Prime%2C+e+gostaria+de+mais+informa%C3%A7%C3%B5es">
+        <Button href="https://api.whatsapp.com/send?phone=5519995557295&text=Ol%C3%A1,%20gostaria%20de%20agendar%20uma%20consulta%20nutricional%20com%20o%20Dr.%20Alexandre%C2%A0Silva.">
           GARANTA SEU HORÁRIO
           <span>CLICANDO AQUI</span>
         </Button>
