@@ -6,7 +6,7 @@ import ReactGA from "react-ga4";
 import { Helmet } from "react-helmet";
 export function Links() {
   useEffect(() => {
-    ReactPixel.init("530500398633975");
+    ReactPixel.init("898048755761591");
     ReactGA.initialize("G-8LDTKE06NS");
   }, []);
   return (
