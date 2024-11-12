@@ -13,15 +13,10 @@ import { Sobre } from "./components/Sobre";
 import ReactPixel from "react-facebook-pixel";
 import ReactGA from "react-ga4";
 import TagManager from 'react-gtm-module'
-const tagManagerArgs = {
-  gtmId: '<ID do GTM tipo (GTM-MJFXW5RD)>'
-}
-TagManager.initialize(tagManagerArgs)
 
 function App() {
   useEffect(() => {
     ReactPixel.init("898048755761591");
-    ReactGA.initialize("G-8LDTKE06NS");
   }, []);
   return (
     <main>
