@@ -4,9 +4,6 @@ import { Bottom, Container, Content, Top } from "./styles";
 import ReactPixel from "react-facebook-pixel";
 import ReactGA from "react-ga4";
 import { Helmet } from "react-helmet";
-import TagManager from 'react-gtm-module'
-const tagManagerArgs = {
-  gtmId: '<ID do GTM tipo (GTM-MJFXW5RD)>'
 }
 TagManager.initialize(tagManagerArgs)
 export function Links() {
