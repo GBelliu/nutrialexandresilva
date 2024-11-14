@@ -12,7 +12,7 @@ import { Metodologia } from "./components/Metodologia";
 import { Sobre } from "./components/Sobre";
 import ReactPixel from "react-facebook-pixel";
 import ReactGA from "react-ga4";
-import TagManager from 'react-gtm-module'
+
 
 function App() {
   useEffect(() => {
