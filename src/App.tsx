@@ -11,13 +11,22 @@ import { Membros } from "./components/Membros";
 import { Metodologia } from "./components/Metodologia";
 import { Sobre } from "./components/Sobre";
 import ReactPixel from "react-facebook-pixel";
-import ReactGA from "react-ga4";
-
+import TagManager from "react-gtm-module";
 
 function App() {
   useEffect(() => {
+    // Inicializa o Facebook Pixel
     ReactPixel.init("898048755761591");
+
+    // Inicializa o Google Tag Manager
+    const tagManagerArgs = {
+      gtmId: "GTM-MJFXW5RD" // Substitua pelo seu ID GTM real
+    };
+    TagManager.initialize(tagManagerArgs);
+
+
   }, []);
+
   return (
     <main>
       <Header />
@@ -35,3 +44,4 @@ function App() {
 }
 
 export default App;
+
