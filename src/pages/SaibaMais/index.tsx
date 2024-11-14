@@ -3,12 +3,10 @@ import { SaibaMaisContent } from "../../components/SaibaMaisContent";
 import { Helmet } from "react-helmet";
 import { useEffect } from "react";
 import ReactPixel from "react-facebook-pixel";
-import ReactGA from "react-ga4";
 
 export function SaibaMais() {
   useEffect(() => {
     ReactPixel.init("530500398633975");
-    ReactGA.initialize("G-8LDTKE06NS");
   }, []);
   return (
     <>
