@@ -2,15 +2,21 @@ import { useEffect } from "react";
 import { LinkContent } from "../../components/LinkContent";
 import { Bottom, Container, Content, Top } from "./styles";
 import ReactPixel from "react-facebook-pixel";
-import ReactGA from "react-ga4";
+import TagManager from "react-gtm-module"; // Certifique-se de que o TagManager foi importado corretamente
 import { Helmet } from "react-helmet";
-}
-TagManager.initialize(tagManagerArgs)
+
 export function Links() {
   useEffect(() => {
+    // Inicializar o Facebook Pixel
     ReactPixel.init("898048755761591");
-    ReactGA.initialize("G-8LDTKE06NS");
+
+    // Inicializar o Google Tag Manager
+    const tagManagerArgs = {
+      gtmId: "GTM-MJFXW5RD" // Substitua pelo seu ID real do GTM
+    };
+    TagManager.initialize(tagManagerArgs);
   }, []);
+
   return (
     <>
       <Helmet>
